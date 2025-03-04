@@ -57,6 +57,6 @@ if __name__ == '__main__':
     logging.info("SMTP server running on port 1025. Press Ctrl+C to stop.")
     try:
         while True:
-            asyncio.sleep(1)
+            time.sleep(1)
     except KeyboardInterrupt:
         controller.stop()
